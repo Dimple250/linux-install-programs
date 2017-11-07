@@ -1,0 +1,24 @@
+#!/bin/sh
+
+
+echo "Install Desktop";
+sudo chmod +x ./dnf-packs/Desktop;
+sudo ./dnf-packs/Desktop;
+
+
+
+echo "Install Java";
+sudo chmod +x ./dnf-packs/Java-install;
+sudo ./dnf-packs/Java-install;
+
+
+
+echo "Install LAMP";
+sudo chmod +x ./dnf-packs/LAMP;
+sudo ./dnf-packs/LAMP;
+
+
+
+echo "Install QT";
+sudo chmod +x ./dnf-packs/QT;
+sudo ./dnf-packs/QT;

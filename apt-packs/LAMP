@@ -1,0 +1,18 @@
+#!/bin/sh
+
+echo "Update system";
+sudo apt-get update;
+
+
+echo "Install SSH";
+sudo apt-get install -y ssh;
+echo "Install Apache";
+sudo apt-get install -y apache2;
+echo "Install PHP";
+sudo apt-get install -y php*;
+echo "Install Mysql";
+sudo apt-get install -y mysql-server mysql-client;
+
+
+echo "Update system";
+sudo apt-get update;

@@ -1,0 +1,18 @@
+#!/bin/sh
+
+echo "Update system";
+sudo dnf update;
+
+
+echo "Install SSH";
+sudo dnf install -y ssh;
+echo "Install Apache";
+sudo dnf install -y apache2;
+echo "Install PHP";
+sudo dnf install -y php*;
+echo "Install Mysql";
+sudo dnf install -y mysql-server mysql-client;
+
+
+echo "Update system";
+sudo dnf update;

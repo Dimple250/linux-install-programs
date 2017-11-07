@@ -1,0 +1,26 @@
+#!/bin/sh
+
+echo "Update system";
+sudo apt-get update;
+
+
+echo "Install C++";
+sudo apt-get install -y g++;
+
+
+echo "Install QT";
+sudo apt-get install -y qt5;
+sudo apt-get install -y qt5-default;
+echo "Install QTCreator";
+sudo apt-get install -y qtcreator;
+sudo apt-get install -y qtbase5-examples qtdeclarative5-examples;
+echo "Install QtMultimedia"
+sudo apt-get install -y qtmultimedia5-dev; 
+echo "Install PDF libery for QT, Poppler"
+sudo apt-get install -y libpoppler-qt5-1;
+sudo apt-get install -y libpoppler-qt5-dev;
+#Exemple
+#LIBS += -L/usr/local/lib -lpoppler-qt5
+
+echo "Update system";
+sudo apt-get update;

@@ -1,0 +1,24 @@
+#!/bin/sh
+
+
+echo "Install Desktop";
+sudo chmod +x ./apt-packs/Desktop;
+sudo ./apt-packs/Desktop;
+
+
+
+echo "Install Java";
+sudo chmod +x ./apt-packs/Java-install;
+sudo ./apt-packs/Java-install;
+
+
+
+echo "Install LAMP";
+sudo chmod +x ./apt-packs/LAMP;
+sudo ./apt-packs/LAMP;
+
+
+
+echo "Install QT";
+sudo chmod +x ./apt-packs/QT;
+sudo ./apt-packs/QT;
