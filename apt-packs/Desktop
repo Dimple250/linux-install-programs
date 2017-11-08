@@ -1,10 +1,8 @@
 #!/bin/sh
 
 
-
 echo "Update system";
 sudo apt-get update;
-
 
 
 echo "Install Emacs24";
@@ -14,34 +12,36 @@ sudo add-apt-repository ppa:webupd8team/sublime-text-3;
 sudo apt-get install -y sublime-text-installer;
 
 
-
 echo "Install SSH";
 sudo apt-get install -y ssh;
 echo "Install Git";
 sudo apt-get install -y git;
-
+echo "Install C++";
+sudo apt-get install -y g++;
 
 
 echo "Install Unetbootin";
 sudo apt-get install -y unetbootin;
-echo "Install rar";
-sudo apt-get install -y rar;
-echo "Install C++";
-sudo apt-get install -y g++;
 echo "Install Gparted";
 sudo apt-get install -y gparted;
 echo "Install LibreOffice";
 sudo apt-get install -y libreoffice;
+
+
 echo "Install VirtualBox";
 sudo apt-get install -y virtualbox;
-echo "Install Синтезатор речи";
-sudo apt-get install -y festival festvox-ru;
 echo "Install wine";
 sudo dpkg --add-architecture i386; 
 sudo add-apt-repository ppa:wine/wine-builds; 
 sudo apt-get install -y --install-recommends winehq-devel;
 
 
+echo "Install rar";
+sudo apt-get install -y rar;
+echo "Install Speech";
+sudo apt-get install -y festival festvox-ru;
+
 
 echo "Update system";
 sudo apt-get update;
+

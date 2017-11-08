@@ -5,7 +5,6 @@ echo "Update system";
 sudo dnf update;
 
 
-
 echo "Install Netbeans";
 sudo dnf install -y netbeans;
 echo "Install JFX";
@@ -16,5 +15,7 @@ sudo dnf install -y oracle-java8-installer;
 echo "Install Maven";
 sudo dnf install -y maven;
 
+
 echo "Update system";
 sudo dnf update;
+

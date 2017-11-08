@@ -5,7 +5,6 @@ echo "Update system";
 sudo apt-get update;
 
 
-
 echo "Install Netbeans";
 sudo apt-get install -y netbeans;
 echo "Install JFX";
@@ -16,5 +15,7 @@ sudo apt-get install -y oracle-java8-installer;
 echo "Install Maven";
 sudo apt-get install -y maven;
 
+
 echo "Update system";
 sudo apt-get update;
+

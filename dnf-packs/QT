@@ -1,5 +1,6 @@
 #!/bin/sh
 
+
 echo "Update system";
 sudo dnf update;
 
@@ -24,3 +25,4 @@ sudo dnf install -y libpoppler-qt5-dev;
 
 echo "Update system";
 sudo dnf update;
+

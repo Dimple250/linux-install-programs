@@ -1,5 +1,6 @@
 #!/bin/sh
 
+
 echo "Update system";
 sudo apt-get update;
 
@@ -14,6 +15,8 @@ sudo apt-get install -y qt5-default;
 echo "Install QTCreator";
 sudo apt-get install -y qtcreator;
 sudo apt-get install -y qtbase5-examples qtdeclarative5-examples;
+
+
 echo "Install QtMultimedia"
 sudo apt-get install -y qtmultimedia5-dev; 
 echo "Install PDF libery for QT, Poppler"
@@ -24,3 +27,4 @@ sudo apt-get install -y libpoppler-qt5-dev;
 
 echo "Update system";
 sudo apt-get update;
+

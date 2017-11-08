@@ -1,5 +1,6 @@
 #!/bin/sh
 
+
 echo "Update system";
 sudo dnf update;
 
@@ -16,3 +17,4 @@ sudo dnf install -y mysql-server mysql-client;
 
 echo "Update system";
 sudo dnf update;
+
